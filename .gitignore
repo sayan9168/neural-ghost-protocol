@@ -1,11 +1,38 @@
-# Python bytecode
+```
+# Compiled and build artifacts
+*.pyc
 __pycache__/
-*.py[cod]
 
-# Environments
+# Dependencies
+.venv/
 venv/
-env/
+node_modules/
+*.egg-info/
+dist/
+build/
 
-# Data & Output
-samples/ghost_output.png
-.DS_Store
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
+```
